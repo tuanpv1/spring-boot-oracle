@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b438e57-4c30-445c-9817-1496e2390bbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/web/app/controllers/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/resources/static/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/webapp/WEB-INF/views/next.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controllers/ProcessNumberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/models/NumberModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEe/src/findMinNumber/FindMinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEe/src/findPerfecNumber/InputModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEe/src/findPerfecNumber/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEe/src/processString/InputModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEe/src/processString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/artifacts/spring_boot_demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/artifacts/spring_boot_demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/spring-boot-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/src/main/java/com/example/webapp/controllers/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp/src/main/webapp/WEB-INF/views/welcomePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/mvc/extensions/ajax/AjaxUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/async/CallableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/async/DeferredResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/async/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/async/TimeoutCallableProcessingInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/config/MvcShowcaseAppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/config/RootConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/ConvertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/MaskFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/MaskFormatAnnotationFormatterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/NestedBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/convert/SocialSecurityNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/RequestDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/custom/CustomArgumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/custom/CustomArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/custom/RequestAttribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/data/standard/StandardArgumentsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/exceptions/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/exceptions/ExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/fileupload/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/form/FormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/form/FormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/form/InquiryType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/mapping/ClasslevelMappingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/mapping/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/mapping/MappingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/messageconverters/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/messageconverters/MessageConvertersController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/redirect/RedirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/response/ResponseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/simple/SimpleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/simple/SimpleControllerRevisited.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/validation/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/validation/ValidationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/views/JavaBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/springframework/samples/mvc/views/ViewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/fileupload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/redirect/redirectResults.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/views/dataBinding.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/views/html.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/views/viewName.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jquery/1.6/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryform/2.8/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/jquery.ui.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/jquery.ui.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/jquery.ui.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/jquery.ui.base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/jquery.ui.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/jquery.ui.tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/jqueryui/1.8/themes/base/jquery.ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/json2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/messages/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/messages/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/messages/messages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/messages/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/resources/messages/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/AbstractContextControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/async/CallableControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/async/DeferredResultControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/convert/ConvertControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/data/CustomArgumentControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/data/DataControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/data/StandardArgumentsControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/exceptions/ExceptionControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/fileupload/FileUploadControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/form/FormControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/mapping/MappingControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/messageconverters/MessageConvertersControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/redirect/RedirectControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/response/ResponseControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/simple/SimpleControllerRevisitedTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/simple/SimpleControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/validation/ValidationControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/springframework/samples/mvc/views/ViewsControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/log4j2-test.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="410" />
+    <option name="y" value="6" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-only" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-only" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.17">
+    <configuration name="MavenRun" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/spring_only_war_exploded/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-only:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_only_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-only" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51027" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-only:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.MavenRun" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b438e57-4c30-445c-9817-1496e2390bbb" name="Default Changelist" comment="" />
+      <created>1555035798127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555035798127</updated>
+      <workItem from="1555035806519" duration="416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-only.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4000857d-5693-47fa-97ca-adce53ca7462/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
